@@ -1,61 +1,136 @@
-# <> LeadSphere CRM
+# 🚀 LeadSphere CRM
 
-A modern Customer Relationship Management (CRM) system developed as part of the Future Interns internship program.
+A modern and responsive **Customer Relationship Management (CRM)** web application developed using **React.js**, **Express.js**, and **Tailwind CSS**. This project was built as part of the **Future Interns Internship Program** to help businesses efficiently manage customer leads.
 
 ---
 
 ## 📌 Project Overview
 
-LeadSphere CRM helps businesses manage customer leads efficiently. Users can add, edit, delete, search, filter, and track leads through a modern dashboard.
+LeadSphere CRM is a lead management system that allows users to:
+
+- Add new leads
+- Edit existing leads
+- Delete leads
+- Search and filter leads
+- Track follow-ups
+- View analytics
+- Export lead data to CSV
+
+The application provides a clean dashboard with charts and a modern user interface.
 
 ---
 
 ## ✨ Features
 
-- 🔐 User Login
-- 📊 Dashboard
+- 🔐 Login Authentication
+- 📊 Dashboard with Statistics
 - 👥 Lead Management (CRUD)
 - 🔍 Search Leads
 - 🎯 Filter Leads by Status
-- 📈 Analytics Charts
 - 📅 Follow-Up Tracking
+- 📈 Analytics Dashboard
 - 📄 Export Leads to CSV
 - 🔔 Toast Notifications
+- 🗑️ Delete Confirmation Modal
 - 📱 Responsive User Interface
+- 🎨 Modern Dashboard Design
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
+### Frontend
 - React.js
 - Vite
-- Express.js
 - Tailwind CSS
 - Axios
 - React Router
 - React Toastify
 - Chart.js
+- React Icons
+
+### Backend
+- Express.js
+- Node.js
+
+### Database
 - JSON File Storage
+
+### Version Control
+- Git
+- GitHub
 
 ---
 
 ## 📂 Project Structure
 
+```text
 FUTURE_FS_02
 │
 ├── client
-│ ├── src
-│ ├── public
-│ └── package.json
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── services
+│   │   ├── utils
+│   │   └── context
+│   ├── public
+│   └── package.json
 │
 ├── server
-│ ├── routes
-│ ├── data
-│ └── server.js
+│   ├── routes
+│   ├── data
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
 
 ---
 
-## 🚀 How to Run
+## 📸 Screenshots
+
+### Login Page
+
+> *(Add `screenshots/login.png` here)*
+
+![Login](screenshots/login.png)
+
+---
+
+### Dashboard
+
+> *(Add `screenshots/dashboard.png` here)*
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### Lead Management
+
+> *(Add `screenshots/leads.png` here)*
+
+![Leads](screenshots/leads.png)
+
+---
+
+### Analytics
+
+> *(Add `screenshots/analytics.png` here)*
+
+![Analytics](screenshots/analytics.png)
+
+---
+
+### Follow-Up Panel
+
+> *(Add `screenshots/followups.png` here)*
+
+![Follow Ups](screenshots/followups.png)
+
+---
+
+## 🚀 Installation
 
 ### Clone the Repository
 
@@ -63,7 +138,7 @@ FUTURE_FS_02
 git clone https://github.com/nakkamanikanta2007-max/FUTURE_FS_02.git
 ```
 
-### Frontend
+### Frontend Setup
 
 ```bash
 cd client
@@ -71,7 +146,13 @@ npm install
 npm run dev
 ```
 
-### Backend
+Frontend runs on:
+
+```
+http://localhost:5173
+```
+
+### Backend Setup
 
 ```bash
 cd server
@@ -79,18 +160,62 @@ npm install
 npm start
 ```
 
+Backend runs on:
+
+```
+http://localhost:5000
+```
+
 ---
 
-## 👨‍💻 Developed By
+## 📈 Future Improvements
+
+- 🌙 Dark Mode
+- 📱 Enhanced Mobile Responsiveness
+- 👤 User Profile Management
+- 🔔 Notification Center
+- ☁️ MongoDB Integration
+- 🔑 JWT Authentication
+- 📊 Advanced Analytics
+- 📅 Calendar View
+
+---
+
+## 🎯 Learning Outcomes
+
+During this project, I learned:
+
+- Building React applications using reusable components
+- Creating REST APIs with Express.js
+- Performing CRUD operations
+- State management using React Hooks
+- Integrating frontend and backend
+- Working with JSON data storage
+- Implementing charts and analytics
+- Using Git and GitHub for version control
+
+---
+
+## 👨‍💻 Developer
 
 **Nakka Yogi Venkat Durga Sai Manikanta**
 
-B.Tech Computer Science Engineering Student
+- 🎓 B.Tech – Computer Science & Engineering
+- 💼 Future Interns Intern
 
 ---
 
-## 📌 Internship
+## 📬 Contact
 
-Future Interns
+- GitHub: https://github.com/nakkamanikanta2007-max
+- LinkedIn: *(Add your LinkedIn profile link here)*
 
-Task 2 – Client Lead Management System
+---
+
+## ⭐ If you like this project
+
+Please consider giving this repository a ⭐ on GitHub!
+
+---
+
+**Thank you for visiting LeadSphere CRM! 🚀**
