@@ -1,4 +1,4 @@
-# 🚀 LeadSphere CRM
+# <> LeadSphere CRM
 
 A modern Customer Relationship Management (CRM) system developed as part of the Future Interns internship program.
 
