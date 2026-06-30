@@ -208,7 +208,7 @@ During this project, I learned:
 ## 📬 Contact
 
 - GitHub: https://github.com/nakkamanikanta2007-max
-- LinkedIn: *(Add your LinkedIn profile link here)*
+- LinkedIn: *https://www.linkedin.com/in/yogi-venkata-durga-sai-manikanta/*
 
 ---
 
