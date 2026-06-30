@@ -1,43 +1,31 @@
-# 🚀 LeadSphere CRM
+# LeadSphere CRM
 
-A modern and responsive **Customer Relationship Management (CRM)** web application developed using **React.js**, **Express.js**, and **Tailwind CSS**. This project was built as part of the **Future Interns Internship Program** to help businesses efficiently manage customer leads.
-
----
-
-## 📌 Project Overview
-
-LeadSphere CRM is a lead management system that allows users to:
-
-- Add new leads
-- Edit existing leads
-- Delete leads
-- Search and filter leads
-- Track follow-ups
-- View analytics
-- Export lead data to CSV
-
-The application provides a clean dashboard with charts and a modern user interface.
+A Customer Relationship Management (CRM) web application developed using React, Express.js, and Tailwind CSS. This project was built as part of the Future Interns Internship Program to manage customer leads through a simple and responsive interface.
 
 ---
 
-## ✨ Features
+## Overview
 
-- 🔐 Login Authentication
-- 📊 Dashboard with Statistics
-- 👥 Lead Management (CRUD)
-- 🔍 Search Leads
-- 🎯 Filter Leads by Status
-- 📅 Follow-Up Tracking
-- 📈 Analytics Dashboard
-- 📄 Export Leads to CSV
-- 🔔 Toast Notifications
-- 🗑️ Delete Confirmation Modal
-- 📱 Responsive User Interface
-- 🎨 Modern Dashboard Design
+LeadSphere CRM allows users to manage customer leads efficiently by providing features such as lead creation, editing, deletion, searching, filtering, follow-up tracking, analytics, and CSV export.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+- User Login Interface
+- Dashboard with Lead Statistics
+- Create, Update and Delete Leads
+- Search Leads
+- Filter Leads by Status
+- Follow-Up Management
+- Analytics Dashboard
+- Export Leads to CSV
+- Toast Notifications
+- Responsive User Interface
+
+---
+
+## Technologies Used
 
 ### Frontend
 - React.js
@@ -50,32 +38,27 @@ The application provides a clean dashboard with charts and a modern user interfa
 - React Icons
 
 ### Backend
-- Express.js
 - Node.js
+- Express.js
 
-### Database
-- JSON File Storage
+### Data Storage
+- JSON File
 
 ### Version Control
-- Git
-- GitHub
+- Git & GitHub
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```text
+```
 FUTURE_FS_02
 │
 ├── client
 │   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── services
-│   │   ├── utils
-│   │   └── context
 │   ├── public
-│   └── package.json
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── server
 │   ├── routes
@@ -83,62 +66,45 @@ FUTURE_FS_02
 │   ├── server.js
 │   └── package.json
 │
+├── screenshots
 └── README.md
 ```
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### Login Page
-
-> *(Add `screenshots/login.png` here)*
+### Login
 
 ![Login](screenshots/login.png)
 
----
-
 ### Dashboard
-
-> *(Add `screenshots/dashboard.png` here)*
 
 ![Dashboard](screenshots/dashboard.png)
 
----
-
 ### Lead Management
-
-> *(Add `screenshots/leads.png` here)*
 
 ![Leads](screenshots/leads.png)
 
----
-
 ### Analytics
-
-> *(Add `screenshots/analytics.png` here)*
 
 ![Analytics](screenshots/analytics.png)
 
----
-
-### Follow-Up Panel
-
-> *(Add `screenshots/followups.png` here)*
+### Follow Ups
 
 ![Follow Ups](screenshots/followups.png)
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/nakkamanikanta2007-max/FUTURE_FS_02.git
 ```
 
-### Frontend Setup
+Install frontend dependencies:
 
 ```bash
 cd client
@@ -146,13 +112,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs on:
-
-```
-http://localhost:5173
-```
-
-### Backend Setup
+Install backend dependencies:
 
 ```bash
 cd server
@@ -160,62 +120,43 @@ npm install
 npm start
 ```
 
-Backend runs on:
+---
 
-```
-http://localhost:5000
-```
+## Future Improvements
+
+- MongoDB Integration
+- JWT Authentication
+- User Profile Management
+- Dark Mode
+- Email Notifications
+- Advanced Analytics
 
 ---
 
-## 📈 Future Improvements
-
-- 🌙 Dark Mode
-- 📱 Enhanced Mobile Responsiveness
-- 👤 User Profile Management
-- 🔔 Notification Center
-- ☁️ MongoDB Integration
-- 🔑 JWT Authentication
-- 📊 Advanced Analytics
-- 📅 Calendar View
-
----
-
-## 🎯 Learning Outcomes
-
-During this project, I learned:
-
-- Building React applications using reusable components
-- Creating REST APIs with Express.js
-- Performing CRUD operations
-- State management using React Hooks
-- Integrating frontend and backend
-- Working with JSON data storage
-- Implementing charts and analytics
-- Using Git and GitHub for version control
-
----
-
-## 👨‍💻 Developer
+## Developer
 
 **Nakka Yogi Venkat Durga Sai Manikanta**
 
-- 🎓 B.Tech – Computer Science & Engineering
-- 💼 Future Interns Intern
+B.Tech – Computer Science & Engineering
+
+Developed as part of the **Future Interns Internship Program**.
 
 ---
 
-## 📬 Contact
+## Live Demo
 
-- GitHub: https://github.com/nakkamanikanta2007-max
-- LinkedIn: *https://www.linkedin.com/in/yogi-venkata-durga-sai-manikanta/*
+Frontend:
+https://future-fs-02-omega-eight.vercel.app/
 
----
-
-## ⭐ If you like this project
-
-Please consider giving this repository a ⭐ on GitHub!
+Backend API:
+https://future-fs-02-td9y.onrender.com/
 
 ---
 
-**Thank you for visiting LeadSphere CRM! 🚀**
+## Repository
+
+GitHub Repository:
+https://github.com/nakkamanikanta2007-max/FUTURE_FS_02
+
+---
+Thank you for Visting
